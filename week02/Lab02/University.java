@@ -9,19 +9,19 @@ public class University
         
         
         // your code
-        String set1 = studentID.substring(1, 3);
-        String set2 = studentID.substring(3, 5);
-        String set3 = studentID.substring(5);
-        String set4 = studentID.substring(1, 3);
-        String set5 = studentID.substring(3, 5);
+        String set1 = "";
+        String set2 = "";
+        String set3 = "";
+        String set4 = "";
+        String set5 = "";
         
         
 
         
         // output
         System.out.println("Student Id: " + studentID);
-        System.out.println("Substring starting from index 1 to 2 : " + set1);
-        System.out.println("Substring starting from index 3 to 4 : " + set2);
+        System.out.println("Substring starting from index 1 to 3 : " + set1);
+        System.out.println("Substring starting from index 3 to 5 : " + set2);
         System.out.println("Substring starting from index 5 : " + set3);
         System.out.println("Entrance Year : 25" + set4);
         
